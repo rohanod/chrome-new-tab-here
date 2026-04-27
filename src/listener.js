@@ -3,7 +3,14 @@ function openNewTab(origTab, opts = { active: true }) {
 		opts.index = origTab.index + 1;
 		opts.openerTabId = origTab.id;
 	}
-	chrome.tabs.create(opts);
+	chrome.tabs.create(opts).then(newTab => {
+		if (origTab.groupId > -1) {
+			chrome.tabs.group({
+				groupId: origTab.groupId,
+				tabIds: newTab.id,
+			});
+		}
+	});
 }
 
 chrome.commands.onCommand.addListener(function (command) {
