@@ -21,8 +21,8 @@
 	"commands": {
 		"new-tab-here": {
 			"suggested_key": {
-				"default": "Alt+T",
-				"mac": "MacCtrl+T"
+				"default": "Alt+Shift+N",
+				"mac": "MacCtrl+Shift+N"
 			},
 			"description": "Open a new tab next to the current one"
 		},
