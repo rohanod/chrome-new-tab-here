@@ -11,8 +11,6 @@ You can either use the button to the right of the address bar, or a configurable
 * For Windows & Linux: <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd>
 * For macOS: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd>
 
-Note: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> is Chrome’s “new incognito window” shortcut, so it’s used on macOS only. Remap at `chrome://extensions/shortcuts` if it conflicts.
-
 There is also a shortcut to open the new tab in the background instead of switching to it straight away:
 
 * For Windows & Linux: <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>
